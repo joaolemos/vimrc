@@ -9,22 +9,21 @@ set nocompatible
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin('~/.vim/plugged')
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/syntastic'
-Plugin 'jlanzarotta/bufexplorer'
-Plugin 'pangloss/vim-javascript'
-Plugin 'moll/vim-node'
-Plugin 'othree/html5.vim'
-Plugin 'othree/html5-syntax.vim'
-Plugin 'groenewege/vim-less'
-Plugin 'othree/javascript-libraries-syntax.vim'
-Plugin 'leafgarland/typescript-vim'
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/syntastic'
+Plug 'jlanzarotta/bufexplorer'
+Plug 'pangloss/vim-javascript'
+Plug 'moll/vim-node'
+Plug 'othree/html5.vim'
+Plug 'othree/html5-syntax.vim'
+Plug 'groenewege/vim-less'
+Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'leafgarland/typescript-vim'
 
-call vundle#end()
+call plug#end()
 
 " javascript libraries syntax
 autocmd BufReadPre *.js let b:javascript_lib_use_react = 1
