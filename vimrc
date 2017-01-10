@@ -22,6 +22,7 @@ Plug 'othree/html5-syntax.vim'
 Plug 'groenewege/vim-less'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'leafgarland/typescript-vim'
+Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 call plug#end()
 
