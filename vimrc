@@ -23,6 +23,8 @@ Plug 'groenewege/vim-less'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plug 'xolox/vim-notes'
+Plug 'xolox/vim-misc'
 
 call plug#end()
 
