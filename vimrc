@@ -25,6 +25,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plug 'xolox/vim-notes'
 Plug 'xolox/vim-misc'
+Plug 'mxw/vim-jsx'
 
 call plug#end()
 
@@ -263,3 +264,6 @@ autocmd BufReadPost *
 
 " Remember info about open buffers on close
 set viminfo^=%
+
+" Allow jsx syntax highlight and ident on js files
+let g:jsx_ext_required = 0
