@@ -8,7 +8,6 @@ set history=700
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
@@ -26,6 +25,7 @@ Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plug 'xolox/vim-notes'
 Plug 'xolox/vim-misc'
 Plug 'mxw/vim-jsx'
+Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 
