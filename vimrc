@@ -26,6 +26,7 @@ Plug 'xolox/vim-notes'
 Plug 'xolox/vim-misc'
 Plug 'mxw/vim-jsx'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'rizzatti/dash.vim'
 
 call plug#end()
 
